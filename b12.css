@@ -1,0 +1,79 @@
+.face{
+    height: 250px;
+    width: 250px;
+    background-color: rgb(231, 174, 5);
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 30%;
+    position:relative;
+    transform:rotate(0.5);
+     
+}
+.face:hover{
+   background-color: blanchedalmond; 
+}
+.face:hover{
+    transform:scale(2,2);
+}
+
+.leye{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.reye{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    margin-left: 160px;
+    margin-top: 50px;
+
+}
+.lpupil{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+.rpupil{
+    height:40px;
+    width: 40PX;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 15px;
+
+}
+.mouth{
+    height: 160px;
+    width: 240px;
+    border-radius: 50%;
+    background-color:transparent ;
+    border: 2px solid transparent;
+    border-bottom: 40px solid #41220c;
+    top: -12px;
+    left:calc(50% -60px);
+    transition;2s;
+    
+}
+
+
+
+    
+    
+  
+  
+
+
+   
